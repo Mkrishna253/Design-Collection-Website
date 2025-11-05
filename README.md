@@ -69,7 +69,7 @@ It allows users and admins to upload, browse, update, and analyze embroidery des
 
 | Home Page |   | Edit/Add Form |
 |------------|---|---------------|
-| <img src="output_screenshots/Emboidery_webpage.png" width="300"/> |   | <img src="output_screenshots/Edit_form.png" width="300"/> |
+| <img src="output_screenshots/Emboidery_webpage.png" width="400"/> |   | <img src="output_screenshots/Edit_form.png" width="400"/> |
 
 ---
 
