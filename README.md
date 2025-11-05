@@ -56,11 +56,22 @@ It allows users and admins to upload, browse, update, and analyze embroidery des
 
 | Field | Type | Description |
 |-------|------|-------------|
-| `id` | Integer (PK) | Unique identifier |
-| `design_name` | CharField | Name of the embroidery design |
-| `category` | CharField | Design category/type |
-| `image` | ImageField | Uploaded design image |
-| `created_at` | DateTimeField | Upload timestamp |
+| `image` | ImageField | Preview image of the embroidery design |
+| `product_name` | CharField | Name or title of the embroidery design |
+| `description` | TextField | Detailed description of the design |
+| `dimensions` | CharField | Physical size or area of the design |
+| `stitch_details` | CharField | Thread or stitch count info |
+| `price` | DecimalField | Price of the design |
 
 ---
 
+## Screenshots
+
+| Home Page |   | Edit/Add Form |
+|------------|---|---------------|
+| <img src="output_screenshots/Emboidery_webpage.png" width="300"/> |   | <img src="output_screenshots/Edit_form.png" width="300"/> |
+
+---
+
+## Tech Stack
+ Python • Django • HTML • CSS • Javascript
